@@ -11,6 +11,7 @@
   inputs.src-hyperscript-master.ref   = "refs/heads/master";
   inputs.src-hyperscript-master.owner = "schneiderfelipe";
   inputs.src-hyperscript-master.repo  = "hyperscript";
+  inputs.src-hyperscript-master.dir   = "";
   inputs.src-hyperscript-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
