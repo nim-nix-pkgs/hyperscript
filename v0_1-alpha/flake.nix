@@ -11,7 +11,6 @@
   inputs.src-hyperscript-v0_1-alpha.ref   = "refs/tags/v0.1-alpha";
   inputs.src-hyperscript-v0_1-alpha.owner = "schneiderfelipe";
   inputs.src-hyperscript-v0_1-alpha.repo  = "hyperscript";
-  inputs.src-hyperscript-v0_1-alpha.dir   = "";
   inputs.src-hyperscript-v0_1-alpha.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
